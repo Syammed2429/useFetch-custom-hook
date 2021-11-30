@@ -20,7 +20,7 @@ import { useFetch } from './util/useFetch'
 function App() {
 
   //Send the url to the useFetch custom hook
-  const { loading, data, error } = useFetch(process.env.REACT_APP_API)
+  const { loading, data, error } = useFetch("https://reqres.in/api/users")
 
   // const two = useDelay(2)
 
