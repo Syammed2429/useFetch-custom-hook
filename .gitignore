@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.vercel
+.env.development.local
+.env.test.local
+.env.production.local
